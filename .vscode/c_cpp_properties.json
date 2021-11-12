@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/user/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/user/catkin_ws/src/ethernet_remote_io_module/include/**",
+        "/home/user/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/user/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/user/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/user/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/user/catkin_ws/src/imu_to_tf/include/**",
+        "/home/user/catkin_ws/src/scan_tools/laser_ortho_projector/include/**",
+        "/home/user/catkin_ws/src/scan_tools/laser_scan_matcher/include/**",
+        "/home/user/catkin_ws/src/scan_tools/laser_scan_sparsifier/include/**",
+        "/home/user/catkin_ws/src/scan_tools/laser_scan_splitter/include/**",
+        "/home/user/catkin_ws/src/scan_tools/ncd_parser/include/**",
+        "/home/user/catkin_ws/src/neo/neo_robot/include/**",
+        "/home/user/catkin_ws/src/scan_tools/polar_scan_matcher/include/**",
+        "/home/user/catkin_ws/src/scan_tools/scan_to_cloud_converter/include/**",
+        "/home/user/catkin_ws/src/tf2_web_republisher/include/**",
+        "/home/user/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/user/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/user/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/user/catkin_ws/src/usb_cam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

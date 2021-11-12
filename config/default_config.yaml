@@ -1,0 +1,7 @@
+# parametrs for remote IO module 
+ip_address: '192.168.137.110' # IP address of modbus server of remote IO module
+port: 502 # port of modbus server of remote IO module
+inputs_topic_name: 'read_digital_inputs' # default rostopic name where node will publish DINs from IO module
+single_coil_sub_topic_name: 'write_coil' # default rostopic name which node will listen to write on one coil
+milti_coils_sub_topic_name: 'write_coils' # default rostopic name which node will listen to  write on multiple coils
+rate: 10 # hz of rospy.Rate

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+ <launch>
+   <node pkg="ethernet_remote_io_module" name="remote_io" type="modbus_node.py" output="screen"  required='true'>
+      <rosparam command="load" file="$(find ethernet_remote_io_module)/config/default_config.yaml"/>
+   </node>
+ </launch>
