@@ -2,7 +2,7 @@
 ROS wrapper for modbus client of remote IO module
 ### Installation
 <br>cd catkin_ws/src</br>
-<br>git clone </br>
+<br>git clone https://github.com/enco77/ethernet_remote_io_module.git</br>
 <br>cd ..</br>
 <br>rosdep install --from-paths src --ignore-src -r -y</br>
 <br>catkin_make</br>
