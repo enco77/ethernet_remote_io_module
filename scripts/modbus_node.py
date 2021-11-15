@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import rospy
 from pymodbus.client.sync import ModbusTcpClient
 from ethernet_remote_io_module.msg import WriteCoil, WriteCoils, ReadDigitalInputs
